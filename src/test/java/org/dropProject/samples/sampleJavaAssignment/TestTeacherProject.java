@@ -16,4 +16,8 @@ public class TestTeacherProject {
     public void testFindMaxWithNull() {
         Main.findMax(null);
     }
+
+    @Test
+    public void testFindOne() { assertEquals(1, Main.findMax(new int[] {1, 1, 1, 1, 1}));}
+
 }
